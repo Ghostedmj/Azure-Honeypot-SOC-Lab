@@ -6,7 +6,7 @@ A hands-on home lab where I deployed a deliberately vulnerable Windows VM to the
 
 ![Attack Map Screenshot](screenshots/attack-map.png)
 
-## 📋 Overview
+ 📋 Overview
 
 This project simulates a real-world Security Operations Center (SOC) workflow:
 
@@ -18,7 +18,7 @@ This project simulates a real-world Security Operations Center (SOC) workflow:
 
 The goal was to build practical experience with SIEM tooling, log analysis, and KQL — core skills for a SOC analyst or security engineer role.
 
-## 🏗️ Architecture
+🏗️ Architecture
 
 ```
 Attacker (Internet)
@@ -78,7 +78,7 @@ SecurityEvent
 ```
 Within hours of exposing the VM, real failed login attempts from around the world started appearing in the logs.
 
-### 6. Enriched logs with geographic data
+6. Enriched logs with geographic data
 Raw logs only contain IP addresses — no location info. I imported a public GeoIP CSV as a **Sentinel Watchlist** (~54,000 IP ranges) and joined it against the security logs:
 
 ```kql
@@ -89,10 +89,10 @@ SecurityEvent
 | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
 ```
 
-### 7. Built a live attack map
+7. Built a live attack map
 Created a Sentinel Workbook and used a custom JSON query (`map.json` in this repo) to render a real-time world map, plotting each failed login attempt by geographic origin.
 
-## 📊 Results / Findings
+📊 Results / Findings
 
 - Captured hundreds of real, unsolicited login attempts within the first 24 hours of exposure
 - Identified the top countries/regions generating brute-force traffic
