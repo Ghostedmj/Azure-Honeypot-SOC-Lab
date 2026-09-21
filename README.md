@@ -96,7 +96,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 - Identified the top countries/regions generating brute-force traffic
 - Confirmed that unprotected RDP/VMs on the public internet are attacked almost immediately — no active "targeting" required, just automated internet-wide scanning
 
-*(Fill in your own specific numbers/countries once you have them — this is the part employers care about most.)*
+
 
 ## 📁 Repo Contents
 
