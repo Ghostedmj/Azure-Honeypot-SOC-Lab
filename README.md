@@ -80,7 +80,7 @@ SecurityEvent
 Within hours of exposing the VM, real failed login attempts from around the world started appearing in the logs.
 
 ### 6. Enriched logs with geographic data
-Raw logs only contain IP addresses — no location info. I imported a public GeoIP CSV as a **Sentinel Watchlist** (~54,000 IP ranges) and joined it against the security logs:
+Raw logs only contain IP addresses no location info. I imported a public GeoIP CSV as a **Sentinel Watchlist** (~54,000 IP ranges) and joined it against the security logs:
 
 ```kql
 let GeoIPDB_FULL = _GetWatchlist("geoip");
