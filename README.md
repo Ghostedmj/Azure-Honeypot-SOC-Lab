@@ -2,7 +2,8 @@
 
 A hands-on home lab where I deployed a deliberately vulnerable Windows VM to the public internet, captured real attacker login attempts, ingested and enriched the logs in Microsoft Sentinel, and built a live world map of attack origins.
 
-<img width="1919" height="817" alt="image" src="https://github.com/user-attachments/assets/bc24d423-19db-4548-8ef2-1302f34a77e7" />
+<img width="1919" height="800" alt="image" src="https://github.com/user-attachments/assets/6df2776d-c0b5-4943-936c-e43fc17366a1" />
+
 
 
 
