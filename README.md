@@ -2,9 +2,10 @@
 
 A hands-on home lab where I deployed a deliberately vulnerable Windows VM to the public internet, captured real attacker login attempts, ingested and enriched the logs in Microsoft Sentinel, and built a live world map of attack origins.
 
-![Attack Map Screenshot](screenshots/attack-map.png)
+<img width="1919" height="1113" alt="image" src="https://github.com/user-attachments/assets/30b5191a-dff8-43ae-84b0-c31cd28a6557" />
 
-## 📋 Overview
+
+## Overview
 
 This project simulates a real-world Security Operations Center (SOC) workflow:
 
@@ -16,7 +17,7 @@ This project simulates a real-world Security Operations Center (SOC) workflow:
 
 The goal was to build practical experience with SIEM tooling, log analysis, and KQL — core skills for a SOC analyst or security engineer role.
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Attacker (Internet)
@@ -51,7 +52,7 @@ Sentinel Workbook (Attack Map Visualization)
 - **Sentinel Watchlists** – GeoIP enrichment
 - **Sentinel Workbooks** – Custom data visualization (JSON-based)
 
-## 🚀 Build Steps
+## Build Steps
 
 ### 1. Provisioned the environment
 Created an Azure subscription and deployed a Windows 10 VM to act as the target.
@@ -90,7 +91,7 @@ SecurityEvent
 ### 7. Built a live attack map
 Created a Sentinel Workbook and used a custom JSON query (`map.json` in this repo) to render a real-time world map, plotting each failed login attempt by geographic origin.
 
-## 📊 Results / Findings
+## Results / Findings
 
 - Captured hundreds of real, unsolicited login attempts within the first 24 hours of exposure
 - Identified the top countries/regions generating brute-force traffic
@@ -98,7 +99,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 
 
 
-## 📁 Repo Contents
+## Repo Contents
 
 | File | Description |
 |---|---|
@@ -106,7 +107,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 | `queries.kql` | KQL queries used for log analysis and GeoIP enrichment |
 | `screenshots/` | Event Viewer, Sentinel architecture, and attack map screenshots |
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - Cloud infrastructure setup (Azure)
 - SIEM configuration and log ingestion pipelines
