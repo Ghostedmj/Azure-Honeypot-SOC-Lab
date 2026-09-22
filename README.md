@@ -97,7 +97,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 
 - Captured hundreds of real, unsolicited login attempts within the first 24 hours of exposure
 - Identified the top countries/regions generating brute-force traffic
-- Confirmed that unprotected RDP/VMs on the public internet are attacked almost immediately — no active "targeting" required, just automated internet-wide scanning
+- Confirmed that unprotected RDP/VMs on the public internet are attacked almost immediately no active "targeting" required, just automated internet-wide scanning
 
 
 
