@@ -107,7 +107,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 |---|---|
 | `map.json` | Sentinel Workbook JSON used to build the attack map |
 | `queries.kql` | KQL queries used for log analysis and GeoIP enrichment |
-| `screenshots/` | Event Viewer, Sentinel architecture, and attack map screenshots |
+| `screenshots` | Event Viewer, Sentinel architecture, and attack map screenshots |
 
 ## Skills Demonstrated
 
