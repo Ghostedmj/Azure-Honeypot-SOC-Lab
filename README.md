@@ -17,7 +17,7 @@ This project simulates a real-world Security Operations Center (SOC) workflow:
 4. Enrich raw IP addresses with geographic data
 5. Visualize the attacks in real time on a world map
 
-The goal was to build practical experience with SIEM tooling, log analysis, and KQL — core skills for a SOC analyst or security engineer role.
+The goal was to build practical experience with SIEM tooling, log analysis, and KQL core skills for a SOC analyst or security engineer role.
 
 ## Architecture
 
