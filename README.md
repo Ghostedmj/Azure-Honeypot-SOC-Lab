@@ -43,7 +43,7 @@ Microsoft Sentinel (SIEM)
 Sentinel Workbook (Attack Map Visualization)
 ```
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Microsoft Azure** – Virtual Machines, Networking, Log Analytics
 - **Microsoft Sentinel** – Cloud-native SIEM
@@ -116,7 +116,7 @@ Created a Sentinel Workbook and used a custom JSON query (`map.json` in this rep
 - Security data visualization
 - Understanding of common attack patterns (brute-force / credential access)
 
-## 🔗 Resources Used
+## Resources Used
 
 - [GeoIP dataset](https://github.com/joshmadakor1/lognpacific-public) for IP-to-location enrichment
 - [KC7 Cyber](https://kc7cyber.com/) – free KQL practice
