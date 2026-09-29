@@ -80,7 +80,8 @@ I deployed a Windows 11 Pro VM in North Central US with a private IP of `10.0.1.
 
 The VM lives in the `MOTSUVENT-SOC-LAB` virtual network. I deliberately left DDoS protection, Azure Firewall, peerings, and private endpoints off so nothing would filter traffic before it reached the honeypot.
 
-![Virtual network](images/02-virtual-network.png)
+<img width="1512" height="809" alt="image" src="https://github.com/user-attachments/assets/d4f2f8a6-2532-4bb1-b51c-a0c7009be18b" />
+
 
 ### 3. Opened the VM to the internet
 
