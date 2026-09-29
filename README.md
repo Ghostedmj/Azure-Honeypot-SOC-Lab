@@ -87,7 +87,8 @@ The VM lives in the `MOTSUVENT-SOC-LAB` virtual network. I deliberately left DDo
 
 I made the VM as exposed as possible by allowing all inbound traffic on the Network Security Group and turning off Windows Defender Firewall inside the VM. The Standard public IP below is the address attackers found and targeted.
 
-![Public IP resource](images/03-public-ip.png)
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/0a5f7fe2-108f-4f9b-a899-a917de507d04" />
+
 
 > This setup is intentionally insecure. I ran it in an isolated lab subscription with nothing of value on the machine.
 
