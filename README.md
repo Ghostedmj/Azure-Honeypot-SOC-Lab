@@ -73,7 +73,7 @@ I picked a small B2as v2 VM to keep costs low on my student credit, and used Win
 
 I deployed a Windows 11 Pro VM in North Central US with a private IP of `10.0.1.4` and a public IP so it could be reached from the internet.
 
-![Honeypot VM overview](images/01-honeypot-vm-overview.png)
+blob:https://claude.ai/79440d35-6aee-49ba-80e5-8252d4f8e12c
 
 ### 2. Set up the virtual network
 
