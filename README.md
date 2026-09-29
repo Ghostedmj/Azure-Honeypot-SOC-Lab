@@ -124,7 +124,8 @@ WindowsEvents
     cityname, countryname, latitude, longitude
 ```
 
-![GeoIP enriched query](images/05-geoip-enriched-query.png)
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/7c8004aa-f211-4b4c-8db9-e5898d6df963" />
+
 
 ### 7. Built the attack map
 
