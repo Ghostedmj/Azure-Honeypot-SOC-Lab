@@ -142,12 +142,14 @@ WindowsEvents | where EventID == 4625
     friendly_location = strcat(cityname, " (", countryname, ")");
 ```
 
-![Sentinel overview](images/06-sentinel-overview.png)
+<img width="1512" height="798" alt="image" src="https://github.com/user-attachments/assets/17aacfff-d551-4062-aca7-d12a5cee8e8e" />
+
 
 ---
 
 ## Findings
-(https://private-user-images.githubusercontent.com/249186684/661606935-9dd9e617-9431-4120-8b6c-7eec416f51e4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTA3MTg2NDMsIm5iZiI6MTc5MDcxODM0MywicGF0aCI6Ii8yNDkxODY2ODQvNjYxNjA2OTM1LTlkZDllNjE3LTk0MzEtNDEyMC04YjZjLTdlZWM0MTZmNTFlNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkyOVQyMTQ1NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZmQ5M2UxYzllMWJiZGVkMzJhZjE4Yjc2YjZmMTNmYmEwZDJmYWY3MTUwYzI1NTFjMWZlMTNlNTJhZTUyYmNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.mlgqDoCG5thrZub6oBFnMZphlUSFZFEQmZze2QjUxU4)
+<img width="1568" height="659" alt="image" src="https://github.com/user-attachments/assets/6e47fa4d-af4e-4a65-98cc-2dd0abe3bb33" />
+
 
 | Rank | Location | Failed logons | Share |
 |---|---|---|---|
