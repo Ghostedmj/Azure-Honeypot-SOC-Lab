@@ -1,9 +1,6 @@
 # Azure Honeypot & SOC Lab: Tracking Live RDP Brute-Force Attacks with Microsoft Sentinel
 
 <img width="1919" height="806" alt="image" src="https://github.com/user-attachments/assets/9dd9e617-9431-4120-8b6c-7eec416f51e4" />
-![Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-SIEM-blue)
-![KQL](https://img.shields.io/badge/KQL-Log%20Analytics-orange)
-![Windows 11](https://img.shields.io/badge/Windows%2011-Honeypot-0078D6?logo=windows&logoColor=white)
 
 ## Summary
 
