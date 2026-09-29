@@ -1,6 +1,5 @@
 # Azure Honeypot & SOC Lab: Tracking Live RDP Brute-Force Attacks with Microsoft Sentinel
 
-<img width="1919" height="806" alt="image" src="https://github.com/user-attachments/assets/9dd9e617-9431-4120-8b6c-7eec416f51e4" />
 
 ## Summary
 
@@ -148,8 +147,7 @@ WindowsEvents | where EventID == 4625
 ---
 
 ## Findings
-
-![Windows VM Attack Map](images/07-attack-map.png)
+(https://private-user-images.githubusercontent.com/249186684/661606935-9dd9e617-9431-4120-8b6c-7eec416f51e4.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTA3MTg2NDMsIm5iZiI6MTc5MDcxODM0MywicGF0aCI6Ii8yNDkxODY2ODQvNjYxNjA2OTM1LTlkZDllNjE3LTk0MzEtNDEyMC04YjZjLTdlZWM0MTZmNTFlNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkyOVQyMTQ1NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZmQ5M2UxYzllMWJiZGVkMzJhZjE4Yjc2YjZmMTNmYmEwZDJmYWY3MTUwYzI1NTFjMWZlMTNlNTJhZTUyYmNkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.mlgqDoCG5thrZub6oBFnMZphlUSFZFEQmZze2QjUxU4)
 
 | Rank | Location | Failed logons | Share |
 |---|---|---|---|
