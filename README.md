@@ -105,7 +105,8 @@ SecurityEvent
 | where EventID == 4625
 ```
 
-![Failed logons 4625](images/04-failed-logons-4625.png)
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/87c2e706-f805-41c5-8a44-0da1c5b36baa" />
+
 
 ### 6. Added geolocation with a watchlist
 
