@@ -223,15 +223,3 @@ SecurityEvent
 ## Cleanup
 
 When I finished, I deleted the lab resource groups so the honeypot would stop running and stop using my Azure for Students credit.
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── data/
-│   └── geoip-summarized.csv          # GeoIP watchlist data
-├── queries/
-│   └── attack-map-workbook.json      # Sentinel workbook map element
-└── images/                           # Lab screenshots
-```
